@@ -31,11 +31,22 @@ body {
   background: repeating-linear-gradient(135deg, #e1e1e1, #e1e1e1 10px, #fff 10px, #fff 20px);
 }
 
+#container {
+  margin: auto;
+  aspect-ratio: 297 / 210;
+  height: 100vh;
+  background-color: white;
+  /* background: linear-gradient(to top, #19a1c7, #0000a1); */
+  /* background: linear-gradient(143deg,  #77DD77 ,#19a1c7,#FF8899 85% ); */
+  font-family: 'mikachan';
+}
+
 #board {
   margin: auto;
   aspect-ratio: 297 / 210;
   height: 100vh;
-  background: linear-gradient(to top, #19a1c7, #0000a1);
+  background-color: rgba(51,136,187, 0.6);
+  /* background: linear-gradient(to top, #19a1c7, #0000a1); */
   /* background: linear-gradient(143deg,  #77DD77 ,#19a1c7,#FF8899 85% ); */
   font-family: 'mikachan';
 }
